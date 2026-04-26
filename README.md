@@ -43,7 +43,7 @@ root/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/personal-portfolio.git
+   git clone https://github.com/SujalPatelDeveloper/Personal-Portfolio-Website.git
    ```
 2. **Open the project**:
    Simply open `index.html` in your favorite browser or use a live server extension in your editor.

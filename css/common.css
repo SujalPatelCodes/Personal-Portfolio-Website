@@ -192,9 +192,11 @@ nav {
 }
 
 .logo {
-    font-size: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
     font-weight: 700;
-    letter-spacing: -1px;
+    letter-spacing: -0.02em; /* Tighter for a logo feel */
+    text-transform: uppercase;
 }
 
 .nav-links {
@@ -214,7 +216,8 @@ nav {
     opacity: 0.5;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
     opacity: 1;
     color: var(--accent-red);
 }
